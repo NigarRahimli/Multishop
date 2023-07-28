@@ -17,3 +17,5 @@ C:\Users\User\source\repos\MultiShop\MultiShop.Business\bin\Debug\net7.0\Multish
 C:\Users\User\source\repos\MultiShop\MultiShop.Business\bin\Debug\net7.0\MultiShop.Core.pdb
 C:\Users\User\source\repos\MultiShop\MultiShop.Business\bin\Debug\net7.0\MultiShop.Entities.pdb
 C:\Users\User\source\repos\MultiShop\MultiShop.Business\obj\Debug\net7.0\MultiShop.Business.csproj.CopyComplete
+C:\Users\User\source\repos\MultiShop\MultiShop.Business\bin\Debug\net7.0\MultiShop.Business.runtimeconfig.json
+C:\Users\User\source\repos\MultiShop\MultiShop.Business\obj\Debug\net7.0\MultiShop.Business.genruntimeconfig.cache

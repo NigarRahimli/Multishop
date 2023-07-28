@@ -8,8 +8,9 @@ namespace MultiShop.Entities.Concrete
 {
     public class Category
     {
-        public int id { get; set; }
+        public int Id { get; set; }
         public string PhotoUrl { get; set; }
+        public bool isFeatured { get; set; }
 
     }
 }

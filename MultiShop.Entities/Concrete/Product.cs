@@ -10,6 +10,7 @@ namespace MultiShop.Entities.Concrete
     {
         public int Id { get; set; }
         public decimal Price { get; set; }
+        public decimal DisCount { get; set; }
         public decimal Raiting { get; set; }
         public int View { get; set; }
         public int Quantity { get; set; }
@@ -17,5 +18,6 @@ namespace MultiShop.Entities.Concrete
         public Category Category { get; set; }
         public string UserId { get; set; }
         public User User { get; set; }
+        public bool isFeatured { get; set; }    
     }
 }

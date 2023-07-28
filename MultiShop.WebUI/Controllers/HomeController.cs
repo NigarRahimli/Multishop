@@ -19,9 +19,8 @@ namespace MultiShop.WebUI.Controllers
 
         public IActionResult Index()
         {
-            Category category = new Category();
-            _categoryService.AddCategory(category);
-            return View();
+          var res =    _categoryService.GetCategories("en");
+            return View(res);
         }
 
         public IActionResult Privacy()

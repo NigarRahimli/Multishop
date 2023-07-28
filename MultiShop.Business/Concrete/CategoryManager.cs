@@ -1,6 +1,7 @@
 ﻿using Multishop.DataAccess.Abstract;
 using MultiShop.Business.Absract;
 using MultiShop.Entities.Concrete;
+using MultiShop.Entities.DTOs.CategoryDTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,9 +19,30 @@ namespace MultiShop.Business.Concrete
             _categoryDal = categoryDal;
         }
 
-        public void AddCategory(Category category)
+
+        public void AddCategory(CategoryAddDTO category)
         {
-            _categoryDal.Add(category);
+           _categoryDal.AddCategory(category);
+        }
+
+        public void DeleteCategory(Category category)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<CategoryHomeListDTO> GetCategories(string langcode)
+        {
+            return _categoryDal.GetCategoriesByLanguage(langcode);
+        }
+
+        public List<Category> GetNavbarCategories(string langcode)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void UpdateCategoy(Category category)
+        {
+            throw new NotImplementedException();
         }
     }
 }
